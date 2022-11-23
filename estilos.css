@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin-left: 2%;
+    margin-right: 4%;
+}
+
+h1{
+    margin:10%;
+    font-family: helvetica;
+    font-style: italic;
+}
+p{
+    margin:3%;
+   
+}
+
+header {
+    background-color: bisque;
+}
+article {
+    background-color:beige;
+}
+
+footer {
+    background-color: bisque;
+}
+
+
+/**MENU / HEADER*/
+header {
+    background-color: bisque;
+    padding: 5px 10px;
+}
+
+
+nav ul {
+    display:flex;
+  flex-direction: row-reverse; /**mover el menu a la izquierda*/
+list-style: none;  /**para quitar los puntitos*/   
+    padding: 5px 10px;
+    display: flex;
+    
+
+  }
+
+nav li{
+    display: flex;
+    padding:5px 10px; /** para que haya espacio entre las palabras*/
+   
+  }
+
+
+/**cuando pasemos el raton por el menu se cambiará el color y el fondo*/
+  nav ul li a:hover{
+    background-color: greenyellow;  
+    color: red;
+  }
+  
+
+  /**línea punteada*/
+  hr {
+    border:1px dashed;
+  }
+  /**quitar el subrayado de los links*/
+  a:link, a:visited, a:active {
+    text-decoration:none;
+}
